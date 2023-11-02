@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698680752
+timestamp 1698949939
 << pwell >>
 rect 51522 722 51574 804
 << locali >>
@@ -964,7 +964,6 @@ timestamp 1698055914
 transform 1 0 51611 0 1 16643
 box -16631 -3719 16631 3719
 << labels >>
-rlabel metal2 44288 12214 59162 12646 1 BiasP2
 rlabel space 40382 10424 62736 11200 1 BiasP1
 rlabel metal3 63998 9194 72066 9400 1 ON
 rlabel metal2 65948 6776 68030 6984 1 NodeA
@@ -977,4 +976,9 @@ rlabel metal2 37170 3106 41230 3354 1 Tail1
 rlabel metal2 51544 4130 51544 4130 1 BiasTail
 rlabel locali 18270 478 18270 478 3 vss
 rlabel locali 33968 21102 33968 21102 1 vdd
+rlabel metal2 37988 24414 37988 24414 5 BiasP1
+rlabel metal2 42610 22272 42610 22272 1 BiasP2
+rlabel metal1 24350 -3028 24350 -3028 1 BiasN1
+rlabel metal2 44288 12214 59162 12646 1 BiasP2_uq0
+rlabel metal1 32334 -1130 32334 -1130 1 BiasN2
 << end >>

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698932468
+timestamp 1698950017
 << nwell >>
 rect 9176 9214 15208 9560
 rect 9180 7450 9518 9214
@@ -1176,11 +1176,11 @@ rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
 use integrator  integrator_0
-timestamp 1698680752
+timestamp 1698949939
 transform 1 0 31930 0 1 29856
 box 18270 -3176 84734 24414
 use Quantizer  Quantizer_0
-timestamp 1697541691
+timestamp 1698949231
 transform 1 0 27348 0 1 -1440
 box -18192 6446 -12152 9382
 << labels >>
@@ -1266,48 +1266,16 @@ flabel metal3 s 465394 702300 470394 704800 0 FreeSans 1920 180 0 0 io_analog[2]
 port 39 nsew signal bidirectional
 flabel metal3 s 413394 702300 418394 704800 0 FreeSans 1920 180 0 0 io_analog[3]
 port 40 nsew signal bidirectional
-flabel metal3 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]
-port 41 nsew signal bidirectional
-flabel metal4 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]
-port 41 nsew signal bidirectional
-flabel metal5 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]
-port 41 nsew signal bidirectional
-flabel metal3 s 227594 702300 232594 704800 0 FreeSans 1920 180 0 0 io_analog[5]
-port 42 nsew signal bidirectional
-flabel metal4 s 227594 702300 232594 704800 0 FreeSans 1920 180 0 0 io_analog[5]
-port 42 nsew signal bidirectional
-flabel metal5 s 227594 702300 232594 704800 0 FreeSans 1920 180 0 0 io_analog[5]
-port 42 nsew signal bidirectional
-flabel metal3 s 175894 702300 180894 704800 0 FreeSans 1920 180 0 0 io_analog[6]
-port 43 nsew signal bidirectional
-flabel metal4 s 175894 702300 180894 704800 0 FreeSans 1920 180 0 0 io_analog[6]
-port 43 nsew signal bidirectional
-flabel metal5 s 175894 702300 180894 704800 0 FreeSans 1920 180 0 0 io_analog[6]
-port 43 nsew signal bidirectional
 flabel metal3 s 120194 702300 125194 704800 0 FreeSans 1920 180 0 0 io_analog[7]
 port 44 nsew signal bidirectional
 flabel metal3 s 68194 702300 73194 704800 0 FreeSans 1920 180 0 0 io_analog[8]
 port 45 nsew signal bidirectional
 flabel metal3 s 16194 702300 21194 704800 0 FreeSans 1920 180 0 0 io_analog[9]
 port 46 nsew signal bidirectional
-flabel metal3 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]
-port 47 nsew signal bidirectional
-flabel metal4 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]
-port 47 nsew signal bidirectional
 flabel metal5 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]
 port 47 nsew signal bidirectional
-flabel metal3 s 217294 702300 222294 704800 0 FreeSans 1920 180 0 0 io_analog[5]
-port 48 nsew signal bidirectional
-flabel metal4 s 217294 702300 222294 704800 0 FreeSans 1920 180 0 0 io_analog[5]
-port 48 nsew signal bidirectional
 flabel metal5 s 217294 702300 222294 704800 0 FreeSans 1920 180 0 0 io_analog[5]
 port 48 nsew signal bidirectional
-flabel metal3 s 165594 702300 170594 704800 0 FreeSans 1920 180 0 0 io_analog[6]
-port 49 nsew signal bidirectional
-flabel metal4 s 165594 702300 170594 704800 0 FreeSans 1920 180 0 0 io_analog[6]
-port 49 nsew signal bidirectional
-flabel metal5 s 165594 702300 170594 704800 0 FreeSans 1920 180 0 0 io_analog[6]
-port 49 nsew signal bidirectional
 flabel metal3 s 326794 702300 328994 704800 0 FreeSans 1920 180 0 0 io_clamp_high[0]
 port 50 nsew signal bidirectional
 flabel metal3 s 225094 702300 227294 704800 0 FreeSans 1920 180 0 0 io_clamp_high[1]
@@ -2314,42 +2282,18 @@ flabel metal2 s 583250 -800 583362 480 0 FreeSans 1120 90 0 0 user_irq[2]
 port 551 nsew signal tristate
 flabel metal3 s 582340 639784 584800 644584 0 FreeSans 1120 0 0 0 vccd1
 port 552 nsew signal bidirectional
-flabel metal3 s 582340 629784 584800 634584 0 FreeSans 1120 0 0 0 vccd1
-port 553 nsew signal bidirectional
 flabel metal3 s 0 643842 1660 648642 0 FreeSans 1120 0 0 0 vccd2
 port 554 nsew signal bidirectional
-flabel metal3 s 0 633842 1660 638642 0 FreeSans 1120 0 0 0 vccd2
-port 555 nsew signal bidirectional
-flabel metal3 s 582340 540562 584800 545362 0 FreeSans 1120 0 0 0 vdda1
-port 556 nsew signal bidirectional
-flabel metal3 s 582340 550562 584800 555362 0 FreeSans 1120 0 0 0 vdda1
-port 557 nsew signal bidirectional
 flabel metal3 s 582340 235230 584800 240030 0 FreeSans 1120 0 0 0 vdda1
 port 558 nsew signal bidirectional
-flabel metal3 s 582340 225230 584800 230030 0 FreeSans 1120 0 0 0 vdda1
-port 559 nsew signal bidirectional
-flabel metal3 s 0 204888 1660 209688 0 FreeSans 1120 0 0 0 vdda2
-port 560 nsew signal bidirectional
-flabel metal3 s 520594 702340 525394 704800 0 FreeSans 1920 180 0 0 vssa1
-port 562 nsew signal bidirectional
-flabel metal3 s 510594 702340 515394 704800 0 FreeSans 1920 180 0 0 vssa1
-port 563 nsew signal bidirectional
 flabel metal3 s 582340 146830 584800 151630 0 FreeSans 1120 0 0 0 vssa1
 port 564 nsew signal bidirectional
-flabel metal3 s 582340 136830 584800 141630 0 FreeSans 1120 0 0 0 vssa1
-port 565 nsew signal bidirectional
-flabel metal3 s 0 559442 1660 564242 0 FreeSans 1120 0 0 0 vssa2
-port 566 nsew signal bidirectional
 flabel metal3 s 0 549442 1660 554242 0 FreeSans 1120 0 0 0 vssa2
 port 567 nsew signal bidirectional
 flabel metal3 s 582340 191430 584800 196230 0 FreeSans 1120 0 0 0 vssd1
 port 568 nsew signal bidirectional
-flabel metal3 s 582340 181430 584800 186230 0 FreeSans 1120 0 0 0 vssd1
-port 569 nsew signal bidirectional
 flabel metal3 s 0 172888 1660 177688 0 FreeSans 1120 0 0 0 vssd2
 port 570 nsew signal bidirectional
-flabel metal3 s 0 162888 1660 167688 0 FreeSans 1120 0 0 0 vssd2
-port 571 nsew signal bidirectional
 flabel metal2 s 524 -800 636 480 0 FreeSans 1120 90 0 0 wb_clk_i
 port 572 nsew signal input
 flabel metal2 s 1706 -800 1818 480 0 FreeSans 1120 90 0 0 wb_rst_i
@@ -2564,6 +2508,62 @@ flabel metal2 s 6434 -800 6546 480 0 FreeSans 1120 90 0 0 wbs_we_i
 port 677 nsew signal input
 flabel metal3 s 0 214888 1660 219688 0 FreeSans 1120 0 0 0 vdda2
 port 561 nsew signal bidirectional
+flabel metal5 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]_uq0
+port 678 nsew signal bidirectional
+flabel metal4 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]_uq1
+port 679 nsew signal bidirectional
+flabel metal4 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]_uq2
+port 680 nsew signal bidirectional
+flabel metal3 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]_uq3
+port 681 nsew signal bidirectional
+flabel metal3 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]_uq4
+port 682 nsew signal bidirectional
+flabel metal5 s 227594 702300 232594 704800 0 FreeSans 1920 180 0 0 io_analog[5]_uq0
+port 683 nsew signal bidirectional
+flabel metal4 s 227594 702300 232594 704800 0 FreeSans 1920 180 0 0 io_analog[5]_uq1
+port 684 nsew signal bidirectional
+flabel metal4 s 217294 702300 222294 704800 0 FreeSans 1920 180 0 0 io_analog[5]_uq2
+port 685 nsew signal bidirectional
+flabel metal3 s 227594 702300 232594 704800 0 FreeSans 1920 180 0 0 io_analog[5]_uq3
+port 686 nsew signal bidirectional
+flabel metal3 s 217294 702300 222294 704800 0 FreeSans 1920 180 0 0 io_analog[5]_uq4
+port 687 nsew signal bidirectional
+flabel metal5 s 175894 702300 180894 704800 0 FreeSans 1920 180 0 0 io_analog[6]_uq0
+port 688 nsew signal bidirectional
+flabel metal4 s 175894 702300 180894 704800 0 FreeSans 1920 180 0 0 io_analog[6]_uq1
+port 689 nsew signal bidirectional
+flabel metal3 s 175894 702300 180894 704800 0 FreeSans 1920 180 0 0 io_analog[6]_uq3
+port 691 nsew signal bidirectional
+flabel metal3 s 582340 136830 584800 141630 0 FreeSans 1120 0 0 0 vssa1_uq0
+port 693 nsew signal bidirectional
+flabel metal3 s 520594 702340 525394 704800 0 FreeSans 1920 180 0 0 vssa1_uq1
+port 694 nsew signal bidirectional
+flabel metal3 s 510594 702340 515394 704800 0 FreeSans 1920 180 0 0 vssa1_uq2
+port 695 nsew signal bidirectional
+flabel metal3 s 582340 181430 584800 186230 0 FreeSans 1120 0 0 0 vssd1_uq0
+port 696 nsew signal bidirectional
+flabel metal3 s 0 162888 1660 167688 0 FreeSans 1120 0 0 0 vssd2_uq0
+port 697 nsew signal bidirectional
+flabel metal3 s 582340 225230 584800 230030 0 FreeSans 1120 0 0 0 vdda1_uq0
+port 698 nsew signal bidirectional
+flabel metal3 s 582340 540562 584800 545362 0 FreeSans 1120 0 0 0 vdda1_uq1
+port 699 nsew signal bidirectional
+flabel metal3 s 582340 550562 584800 555362 0 FreeSans 1120 0 0 0 vdda1_uq2
+port 700 nsew signal bidirectional
+flabel metal3 s 582340 629784 584800 634584 0 FreeSans 1120 0 0 0 vccd1_uq0
+port 701 nsew signal bidirectional
+flabel metal3 s 0 633842 1660 638642 0 FreeSans 1120 0 0 0 vccd2_uq0
+port 702 nsew signal bidirectional
+flabel metal3 s 0 204888 1660 209688 0 FreeSans 1120 0 0 0 vdda2_uq0
+port 703 nsew signal bidirectional
+flabel metal3 s 0 559442 1660 564242 0 FreeSans 1120 0 0 0 vssa2_uq0
+port 704 nsew signal bidirectional
+flabel metal3 s 165594 702300 170594 704800 0 FreeSans 1920 180 0 0 io_analog[6]_uq4
+port 692 nsew signal bidirectional
+flabel metal4 s 165594 702300 170594 704800 0 FreeSans 1920 180 0 0 io_analog[6]_uq2
+port 690 nsew signal bidirectional
+flabel metal5 s 165594 702300 170594 704800 0 FreeSans 1920 180 0 0 io_analog[6]
+port 49 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 584000 704000
 << end >>

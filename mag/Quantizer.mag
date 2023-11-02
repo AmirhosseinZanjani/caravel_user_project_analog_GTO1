@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1697541691
+timestamp 1698949231
 << nwell >>
 rect -13652 8716 -13602 8762
 rect -16204 7948 -16098 7982
@@ -816,4 +816,5 @@ rlabel metal1 -17514 6752 -17446 6848 1 Vss
 rlabel metal1 -17708 6740 -17398 6840 1 Vss
 rlabel space -18168 8890 -18048 8962 1 Vdd
 rlabel locali -16548 8788 -16504 8962 1 Vdd
+rlabel locali -15936 7332 -15936 7332 1 InP
 << end >>
