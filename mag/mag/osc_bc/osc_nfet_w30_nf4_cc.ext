@@ -1,0 +1,50 @@
+timestamp 1695394243
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use osc_nfet_w15_nf4_cc osc_nfet_w15_nf4_cc_1 1 0 4 0 1 -2
+use osc_nfet_w15_nf4_cc osc_nfet_w15_nf4_cc_0 1 0 2592 0 1 -2
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/en" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" 2.54138
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 51.7317
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/en" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" 12.5584
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" 450.813
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/en" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 0.151464
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 51.0344
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.545426
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 2.02331
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/en" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" 0.83696
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" 0.532998
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.191286
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 0.613554
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/en" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" 1.27471
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" 5.92016
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 0.716496
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/en" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 3.55271e-15
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" 130.513
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 0.0360106
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.2797
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" 0.251724
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 17.4524
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.0254932
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" 0.304261
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_0/m1_7_1188#" 0.00544456
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.681796
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.543927
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 1.13953
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.915979
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.712026
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate" 1.60068
+cap "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/sky130_fd_pr__nfet_01v8_QMBXET_0/a_n321_n375#" 0.550964
+merge "osc_nfet_w15_nf4_cc_0/VSUBS" "osc_nfet_w15_nf4_cc_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "osc_nfet_w15_nf4_cc_1/VSUBS" "VSUBS"
+merge "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_1/drain" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/gate" -397.361 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0 0 0 0 0
+merge "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/gate" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/drain"
+merge "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_1/gate" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/drain" -373.773 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0 0 0 0 0
+merge "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/drain" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/gate"
+merge "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_1/VSUB" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/VSUB" -455.537 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1500 0 0 0 0 0 0 0 0 0 0 0 0
+merge "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/VSUB" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/VSUB"
+merge "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_1/en" "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/en" -130.246 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 0 0 0 0 0 0 0 0
+merge "osc_nfet_w15_nf4_cc_0/osc_nfet_w15_nf4_0/en" "osc_nfet_w15_nf4_cc_1/osc_nfet_w15_nf4_1/en"

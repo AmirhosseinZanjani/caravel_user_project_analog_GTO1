@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1695986410
+use cap_sw  cap_sw_0
+timestamp 1695986410
+transform 1 0 131 0 1 40
+box -131 -40 1842 1868
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_0
+timestamp 1695651268
+transform 0 -1 -1982 1 0 2148
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_1
+timestamp 1695651268
+transform 0 -1 5228 1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_2
+timestamp 1695651268
+transform 0 -1 5228 -1 0 2148
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_3
+timestamp 1695651268
+transform 0 -1 -702 -1 0 2148
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4
+timestamp 1695651268
+transform 0 -1 2668 1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_5
+timestamp 1695651268
+transform 0 -1 2668 -1 0 2148
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6
+timestamp 1695651268
+transform 0 -1 -702 1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_7
+timestamp 1695651268
+transform 0 -1 -1982 -1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_8
+timestamp 1695651268
+transform 0 -1 3948 -1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_9
+timestamp 1695651268
+transform 0 -1 6508 -1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_10
+timestamp 1695651268
+transform 0 -1 3948 1 0 2148
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_11
+timestamp 1695651268
+transform 0 -1 6508 1 0 2148
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_12
+timestamp 1695651268
+transform 0 -1 -4542 -1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_13
+timestamp 1695651268
+transform 0 -1 -3262 1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_14
+timestamp 1695651268
+transform 0 -1 -4542 1 0 2148
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_15
+timestamp 1695651268
+transform 0 -1 -3262 -1 0 2148
+box -686 -590 686 590
+<< end >>

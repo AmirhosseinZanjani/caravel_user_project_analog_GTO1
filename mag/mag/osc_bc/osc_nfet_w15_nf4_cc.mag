@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1695392077
+use osc_nfet_w15_nf4  osc_nfet_w15_nf4_0
+timestamp 1695391617
+transform 1 0 130 0 1 227
+box -134 -225 1160 1562
+use osc_nfet_w15_nf4  osc_nfet_w15_nf4_1
+timestamp 1695391617
+transform 1 0 1424 0 1 227
+box -134 -225 1160 1562
+<< end >>

@@ -25,7 +25,7 @@ N -180 -160 -100 -160 {
 lab=0}
 N -100 -160 -20 -160 {
 lab=0}
-N -235 -260 -235 -220 {
+N -315 -260 -315 -220 {
 lab=Clk}
 N -20 -260 -20 -220 {
 lab=VSS_Q}
@@ -50,14 +50,14 @@ C {devices/lab_pin.sym} -120 122.5 3 0 {name=p3 sig_type=std_logic lab=VSS_Q}
 C {quantizer.sym} -100 42.5 0 0 {name= X1}
 C {devices/vsource.sym} -180 -190 0 0 {name=V3 value=1.8}
 C {devices/lab_pin.sym} -180 -260 0 0 {name=p5 sig_type=std_logic lab=VDD_Q}
-C {devices/lab_pin.sym} -235 -260 0 0 {name=p6 sig_type=std_logic lab=Clk}
-C {devices/vsource.sym} -235 -190 0 0 {name=V5 value="pulse(1.8 0 0 0 0 16.66u 33.33u)"}
+C {devices/lab_pin.sym} -315 -260 0 0 {name=p6 sig_type=std_logic lab=Clk}
+C {devices/vsource.sym} -315 -190 0 0 {name=V5 value="pulse(1.8 0 0 0 0 16.66u 33.33u)"}
 C {devices/vsource.sym} -20 -190 0 0 {name=V7 value=0}
 C {devices/lab_pin.sym} -20 -260 0 0 {name=p16 sig_type=std_logic lab=VSS_Q}
 C {devices/lab_pin.sym} -165 -160 3 0 {name=p17 sig_type=std_logic lab=0}
 C {devices/lab_pin.sym} 150 -285 0 0 {name=p18 sig_type=std_logic lab=InP}
 C {devices/code_shown.sym} -587.5 -247.5 0 0 {name=s1 only_toplevel=false value=".save all
-.tran 0.001u 1m
+.tran 0.1u 100u
 "}
 C {devices/vsource.sym} -100 -190 0 0 {name=V1 value=0.9}
 C {devices/lab_pin.sym} -100 -260 0 0 {name=p4 sig_type=std_logic lab=VCM}

@@ -1,0 +1,25 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1696250317
+use cap_sw  cap_sw_0
+timestamp 1696250317
+transform 1 0 131 0 1 40
+box -131 -40 1835 1868
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_1
+timestamp 1696250317
+transform 0 -1 3948 -1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4
+timestamp 1696250317
+transform 0 -1 2668 1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6
+timestamp 1696250317
+transform 0 -1 -702 1 0 686
+box -686 -590 686 590
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7  sky130_fd_pr__cap_mim_m3_1_H9ZJA7_7
+timestamp 1696250317
+transform 0 -1 -1982 -1 0 686
+box -686 -590 686 590
+<< end >>

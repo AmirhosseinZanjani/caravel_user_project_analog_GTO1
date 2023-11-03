@@ -1,0 +1,17 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1694442780
+<< metal1 >>
+rect 138 -158 190 126
+rect 282 -158 334 126
+rect 474 -158 526 126
+rect 666 -158 718 126
+rect 858 -158 910 126
+rect 1050 -158 1102 126
+rect 1194 -158 1246 126
+use pa_nfet_w15_l015  pa_nfet_w15_l015_0
+timestamp 1694441024
+transform 1 0 691 0 1 408
+box -742 -460 744 480
+<< end >>

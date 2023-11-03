@@ -1,0 +1,41 @@
+timestamp 1694526696
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use PA_nfet_w15_l015 PA_nfet_w15_l015_1 1 0 232 0 1 246
+use PA_nfet_w15_l015 PA_nfet_w15_l015_0 1 0 1804 0 1 246
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "PA_nfet_w15_l015_1/M1G" "PA_nfet_w15_l015_1/M2G" 0.725759
+cap "PA_nfet_w15_l015_1/vss" "PA_nfet_w15_l015_1/M2G" 0.985192
+cap "PA_nfet_w15_l015_1/M1D" "PA_nfet_w15_l015_1/M1S_M2D" 0.0195336
+cap "PA_nfet_w15_l015_1/M1S_M2D" "PA_nfet_w15_l015_1/M2S" 0.0374649
+cap "PA_nfet_w15_l015_1/M1D" "PA_nfet_w15_l015_1/M2S" 0.026358
+cap "PA_nfet_w15_l015_1/vss" "PA_nfet_w15_l015_1/M2S" 2.66605
+cap "PA_nfet_w15_l015_1/M1S_M2D" "PA_nfet_w15_l015_1/vss" -0.26774
+cap "PA_nfet_w15_l015_1/M1G" "PA_nfet_w15_l015_1/M2S" 1.95146
+cap "PA_nfet_w15_l015_1/M2G" "PA_nfet_w15_l015_1/M2S" 4.88498e-15
+cap "PA_nfet_w15_l015_1/M1D" "PA_nfet_w15_l015_1/M2S" 20.8764
+cap "PA_nfet_w15_l015_1/M1S_M2D" "PA_nfet_w15_l015_1/M1G" 1.95146
+cap "PA_nfet_w15_l015_1/M1S_M2D" "PA_nfet_w15_l015_1/M1D" -32.4807
+cap "PA_nfet_w15_l015_1/vss" "PA_nfet_w15_l015_1/M1G" 10.3558
+cap "PA_nfet_w15_l015_1/vss" "PA_nfet_w15_l015_1/M2G" 0.237191
+cap "PA_nfet_w15_l015_1/vss" "PA_nfet_w15_l015_1/M1D" 5.0351
+cap "PA_nfet_w15_l015_1/M2G" "PA_nfet_w15_l015_1/M1G" -32.4998
+cap "PA_nfet_w15_l015_1/M1D" "PA_nfet_w15_l015_1/M1G" 1.58823
+cap "PA_nfet_w15_l015_1/M1D" "PA_nfet_w15_l015_1/M2G" 1.33881
+cap "PA_nfet_w15_l015_1/M1S_M2D" "PA_nfet_w15_l015_1/M2S" -42.3968
+cap "PA_nfet_w15_l015_1/M2S" "PA_nfet_w15_l015_1/M1S_M2D" 0.0512382
+cap "PA_nfet_w15_l015_1/M1S_M2D" "PA_nfet_w15_l015_1/M1D" 0.080417
+cap "PA_nfet_w15_l015_1/M1G" "PA_nfet_w15_l015_1/M2G" 0.0653082
+cap "PA_nfet_w15_l015_1/M2S" "PA_nfet_w15_l015_1/M1S_M2D" 0.0304687
+merge "PA_nfet_w15_l015_0/M1S_M2D" "PA_nfet_w15_l015_1/M1S_M2D" -80.5847 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5184 -312 0 0 0 0 0 0 0 0
+merge "PA_nfet_w15_l015_0/VSUBS" "PA_nfet_w15_l015_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "PA_nfet_w15_l015_1/VSUBS" "VSUBS"
+merge "PA_nfet_w15_l015_0/M2S" "PA_nfet_w15_l015_1/M2S" -157.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5184 -312 0 0 0 0 0 0 0 0
+merge "PA_nfet_w15_l015_0/M1D" "PA_nfet_w15_l015_1/M1D" -121.289 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5184 -312 0 0 0 0 0 0 0 0
+merge "PA_nfet_w15_l015_0/M2G" "PA_nfet_w15_l015_1/M2G" -108.787 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5184 -312 0 0 0 0 0 0 0 0
+merge "PA_nfet_w15_l015_0/M1G" "PA_nfet_w15_l015_1/M1G" -122.134 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5184 -312 0 0 0 0 0 0 0 0
+merge "PA_nfet_w15_l015_0/vss" "PA_nfet_w15_l015_1/sky130_fd_pr__nfet_01v8_LM9D52_0/a_n803_n424#" -680.8 0 0 0 0 0 0 0 0 0 0 -28832 -1764 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28832 -1764 -10910 -618 -6288 -360 0 0 0 0 0 0 0 0
+merge "PA_nfet_w15_l015_1/sky130_fd_pr__nfet_01v8_LM9D52_0/a_n803_n424#" "PA_nfet_w15_l015_1/vss"

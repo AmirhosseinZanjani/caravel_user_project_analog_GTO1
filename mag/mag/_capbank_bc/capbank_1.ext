@@ -1,0 +1,75 @@
+timestamp 1695734046
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use capbank_nfet_1 capbank_nfet_1_0 1 0 131 0 1 40
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7 sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6 0 -1 -702 1 0 686
+use sky130_fd_pr__cap_mim_m3_1_H9ZJA7 sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4 0 -1 2668 1 0 686
+port "vn_cap" 3 3258 -58 3356 100 m4
+port "vp_cap" 2 -1390 -58 -1292 100 m4
+port "tune" 1 -62 -56 14 178 m1
+port "vss_cap" 0 -80 202 36 374 li
+node "vn_cap" 1 436.637 3258 -58 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133484 2872 0 0 0 0
+node "vp_cap" 1 328.966 -1390 -58 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134684 2896 0 0 0 0
+node "m2_1633_1468#" 0 32.0622 1633 1468 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4848 298 0 0 0 0 0 0 0 0
+node "m2_1537_1564#" 2 777.833 1537 1564 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49968 1762 24000 680 142000 3040 0 0 0 0
+node "m2_n212_1372#" 2 906.074 -212 1372 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43680 1500 24000 680 142000 3040 0 0 0 0
+node "tune" 0 133.243 -62 -56 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17784 620 0 0 0 0 0 0 0 0 0 0
+node "vss_cap" 13 167.366 -80 202 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29584 688 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m2_1537_1564#" "vn_cap" 86.5197
+cap "m2_n212_1372#" "tune" 0.167953
+cap "tune" "vss_cap" 20.9047
+cap "m2_1537_1564#" "m2_1633_1468#" 77.7157
+cap "m2_n212_1372#" "vss_cap" 0.911898
+cap "vp_cap" "tune" 7.28912
+cap "m2_n212_1372#" "vp_cap" 129.699
+cap "m2_n212_1372#" "m2_1633_1468#" 1.72043
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/vp_sw" 0.00515428
+cap "capbank_nfet_1_0/en_sw" "capbank_nfet_1_0/vn_sw" 93.6933
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/c1_n646_n550#" "capbank_nfet_1_0/vn_sw" 25.1958
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/vn_sw" 88.7177
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/c1_n646_n550#" "capbank_nfet_1_0/en_sw" 21.1516
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/en_sw" 0.0283268
+cap "capbank_nfet_1_0/vp_sw" "capbank_nfet_1_0/vn_sw" 33.0606
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/c1_n646_n550#" "capbank_nfet_1_0/vss_sw" 35.3986
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/c1_n646_n550#" "capbank_nfet_1_0/vp_sw" 20.6148
+cap "capbank_nfet_1_0/vn_sw" "capbank_nfet_1_0/vp_sw" 5.2383
+cap "capbank_nfet_1_0/vss_sw" "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/c1_n646_n550#" 0.135813
+cap "capbank_nfet_1_0/vn_sw" "capbank_nfet_1_0/en_sw" -0.00127056
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/en_sw" 36.7852
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/vp_sw" 0.0148901
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/vn_sw" 66.406
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/c1_n646_n550#" "capbank_nfet_1_0/en_sw" 25.197
+cap "capbank_nfet_1_0/en_sw" "capbank_nfet_1_0/vp_sw" 72.8505
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/c1_n646_n550#" "capbank_nfet_1_0/vn_sw" 20.6148
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/c1_n646_n550#" "capbank_nfet_1_0/vss_sw" 32.6001
+cap "capbank_nfet_1_0/vp_sw" "capbank_nfet_1_0/vn_sw" 37.4967
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/vp_sw" 137.551
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/c1_n646_n550#" "capbank_nfet_1_0/vp_sw" 31.9876
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/c1_n646_n550#" "capbank_nfet_1_0/vp_sw" 34.9701
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/c1_n646_n550#" "capbank_nfet_1_0/vn_sw" -0.267707
+cap "capbank_nfet_1_0/vp_sw" "capbank_nfet_1_0/vn_sw" 36.7421
+cap "capbank_nfet_1_0/en_sw" "capbank_nfet_1_0/vn_sw" -0.00388807
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/vn_sw" 6.85365
+cap "capbank_nfet_1_0/vn_sw" "capbank_nfet_1_0/vss_sw" 1.2779
+cap "capbank_nfet_1_0/vn_sw" "capbank_nfet_1_0/vp_sw" 3.49871
+cap "capbank_nfet_1_0/en_sw" "capbank_nfet_1_0/vn_sw" -0.00173228
+cap "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/c1_n646_n550#" "capbank_nfet_1_0/vp_sw" -0.267707
+cap "capbank_nfet_1_0/vss_sw" "capbank_nfet_1_0/vp_sw" 8.38679
+cap "capbank_nfet_1_0/en_sw" "capbank_nfet_1_0/vn_sw" 1.77636e-15
+cap "capbank_nfet_1_0/vp_sw" "capbank_nfet_1_0/vn_sw" -35.7162
+merge "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/c1_n646_n550#" "vn_cap" -397.586 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21462 -2086 0 0 0 0
+merge "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/c1_n646_n550#" "vp_cap" -289.839 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21462 -2086 0 0 0 0
+merge "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/VSUBS" "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/VSUBS" "capbank_nfet_1_0/VSUBS"
+merge "capbank_nfet_1_0/VSUBS" "VSUBS"
+merge "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_6/m3_n686_n590#" "m2_1633_1468#" -828.662 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19104 -988 0 -200 -110976 -2504 0 0 0 0
+merge "m2_1633_1468#" "capbank_nfet_1_0/vn_sw"
+merge "capbank_nfet_1_0/vn_sw" "m2_n212_1372#"
+merge "capbank_nfet_1_0/vss_sw" "vss_cap" -113.064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9456 -456 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__cap_mim_m3_1_H9ZJA7_4/m3_n686_n590#" "capbank_nfet_1_0/vp_sw" -699.823 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20928 -968 0 -200 -110976 -2504 0 0 0 0
+merge "capbank_nfet_1_0/vp_sw" "m2_1537_1564#"
+merge "capbank_nfet_1_0/en_sw" "tune" -36.0365 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -658 -122 0 0 0 0 0 0 0 0 0 0
