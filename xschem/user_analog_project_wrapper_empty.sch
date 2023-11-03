@@ -17,11 +17,11 @@ N 3820 170 3920 170 { lab=io_in[19]}
 N 3950 -340 4070 -340 { lab=io_out[24]}
 N 3950 -300 4070 -300 { lab=io_out[25]}
 N 3670 -340 3720 -340 {
-lab=io_analog[9]}
+lab=io_analog[10]}
 N 3880 -250 3880 -220 {
 lab=user_clock2}
 N 3670 -300 3720 -300 {
-lab=io_analog[10]}
+lab=io_analog[9]}
 N 3670 -130 3710 -130 {
 lab=vdda2}
 N 3710 -130 3710 -100 {
@@ -38,9 +38,9 @@ lab=io_in[24]}
 N 3760 190 3920 190 {
 lab=io_in[24]}
 N 3580 -20 3630 -20 {
-lab=io_analog[9]}
-N 3580 40 3630 40 {
 lab=io_analog[10]}
+N 3580 40 3630 40 {
+lab=io_analog[9]}
 N 3770 -150 3770 -100 {
 lab=io_in[18]}
 N 3820 -130 3820 -100 {
@@ -86,10 +86,10 @@ C {devices/lab_pin.sym} 4070 -340 0 1 {name=l8 sig_type=std_logic lab=io_out[24]
 C {devices/lab_pin.sym} 4070 -300 0 1 {name=l9 sig_type=std_logic lab=io_out[25]}
 C {devices/lab_pin.sym} 3920 170 0 1 {name=l12 sig_type=std_logic lab=io_in[19]}
 C {caravel_user_project_analog_GTO1/xschem/quantizer.sym} 3810 -320 0 0 {name= X1}
-C {devices/lab_pin.sym} 3880 -220 3 0 {name=l3 sig_type=std_logic lab=user_clock2}
+C {devices/lab_pin.sym} 3880 -220 2 0 {name=l3 sig_type=std_logic lab=user_clock2}
 C {devices/lab_pin.sym} 3610 190 0 0 {name=l4 sig_type=std_logic lab=io_in[20]}
 C {devices/lab_pin.sym} 3920 190 0 1 {name=l5 sig_type=std_logic lab=io_in[24]}
-C {devices/lab_pin.sym} 3580 40 0 0 {name=l35 sig_type=std_logic lab=io_analog[10]}
+C {devices/lab_pin.sym} 3580 40 0 0 {name=l35 sig_type=std_logic lab=io_analog[9]}
 C {devices/lab_pin.sym} 3730 -460 0 0 {name=l36 sig_type=std_logic lab=vdda2}
 C {devices/lab_pin.sym} 4030 -20 0 1 {name=l10 sig_type=std_logic lab=io_out[25]}
 C {devices/lab_pin.sym} 4030 30 0 1 {name=l11 sig_type=std_logic lab=io_out[24]}
@@ -123,6 +123,6 @@ C {devices/iopin.sym} 4650 370 0 0 {name=p56 lab=io_analog[6]_uq1}
 C {devices/iopin.sym} 4650 420 0 0 {name=p57 lab=io_analog[6]_uq2}
 C {devices/iopin.sym} 4660 480 0 0 {name=p58 lab=io_analog[6]_uq3}
 C {devices/iopin.sym} 4660 540 0 0 {name=p59 lab=io_analog[6]_uq4}
-C {devices/lab_pin.sym} 3580 -20 0 0 {name=l7 sig_type=std_logic lab=io_analog[9]}
-C {devices/lab_pin.sym} 3670 -340 0 0 {name=l13 sig_type=std_logic lab=io_analog[9]}
-C {devices/lab_pin.sym} 3670 -300 0 0 {name=l14 sig_type=std_logic lab=io_analog[10]}
+C {devices/lab_pin.sym} 3580 -20 0 0 {name=l7 sig_type=std_logic lab=io_analog[10]}
+C {devices/lab_pin.sym} 3670 -340 0 0 {name=l13 sig_type=std_logic lab=io_analog[10]}
+C {devices/lab_pin.sym} 3670 -300 0 0 {name=l14 sig_type=std_logic lab=io_analog[9]}
