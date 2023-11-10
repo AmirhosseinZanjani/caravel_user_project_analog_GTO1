@@ -1,0 +1,9 @@
+user_analog_project_wrapper.mag
+----------------------------------------
+P-diff distance to N-tap must be < 15.0um (LU.3)
+----------------------------------------
+ 309.960um 200.725um 310.250um 207.385um
+----------------------------------------
+[INFO] COUNT: 1
+[INFO] Should be divided by 3 or 4
+

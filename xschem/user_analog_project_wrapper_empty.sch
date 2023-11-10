@@ -5,6 +5,8 @@ K {}
 V {}
 S {}
 E {}
+T {gpio_analog[2] = io_in[9]
+gpio_analog[3] = io_in[10]} 4690 -250 0 0 0.4 0.4 {}
 N 3830 -460 3830 -390 { lab=vdda2}
 N 3730 -460 3830 -460 { lab=vdda2}
 N 3790 -250 3790 -200 { lab=vssa2}
@@ -47,6 +49,86 @@ N 3820 -130 3820 -100 {
 lab=io_in[17]}
 N 3820 -130 3870 -130 {
 lab=io_in[17]}
+N 4420 -440 4480 -440 {
+lab=vccd1}
+N 4420 -420 4480 -420 {
+lab=vssd1}
+N 4420 -400 4480 -400 {
+lab=io_in[11]}
+N 4420 -380 4480 -380 {
+lab=io_in[13]}
+N 4420 -360 4480 -360 {
+lab=io_in[12]}
+N 4420 -340 4480 -340 {
+lab=io_in[8]}
+N 4420 -320 4480 -320 {
+lab=io_in[7]}
+N 4780 -440 4840 -440 {
+lab=io_out[5]}
+N 4780 -420 4840 -420 {
+lab=io_out[6]}
+N 4780 -360 4840 -360 {
+lab=gpio_analog[3]}
+N 4780 -340 4840 -340 {
+lab=gpio_analog[2]}
+N 4780 -400 5060 -400 {
+lab=#net1}
+N 5060 -480 5060 -400 {
+lab=#net1}
+N 4780 -380 5060 -380 {
+lab=#net2}
+N 5060 -220 5060 -120 {
+lab=#net2}
+N 5060 -580 5100 -580 {
+lab=#net1}
+N 5160 -580 5200 -580 {
+lab=io_oeb[5]}
+N 5160 -480 5200 -480 {
+lab=io_oeb[6]}
+N 5060 -480 5100 -480 {
+lab=#net1}
+N 5060 -580 5060 -480 {
+lab=#net1}
+N 5160 -320 5200 -320 {
+lab=io_oeb[7]}
+N 5060 -320 5100 -320 {
+lab=#net2}
+N 5160 -220 5200 -220 {
+lab=io_oeb[8]}
+N 5060 -220 5100 -220 {
+lab=#net2}
+N 5060 -20 5060 80 {
+lab=#net2}
+N 5160 -120 5200 -120 {
+lab=io_oeb[9]}
+N 5060 -120 5100 -120 {
+lab=#net2}
+N 5160 -20 5200 -20 {
+lab=io_oeb[10]}
+N 5060 -20 5100 -20 {
+lab=#net2}
+N 5160 80 5200 80 {
+lab=io_oeb[11]}
+N 5060 80 5100 80 {
+lab=#net2}
+N 5160 180 5200 180 {
+lab=io_oeb[12]}
+N 5060 180 5100 180 {
+lab=#net2}
+N 5060 80 5060 180 {
+lab=#net2}
+N 5160 280 5200 280 {
+lab=io_oeb[13]}
+N 5060 280 5100 280 {
+lab=#net2}
+N 5060 -380 5060 -320 {
+lab=#net2}
+N 5060 -320 5060 -220 {
+lab=#net2}
+N 5060 -120 5060 -20 {
+lab=#net2}
+N 5060 180 5060 280 {
+lab=#net2}
 C {devices/iopin.sym} 3240 -470 0 0 {name=p1 lab=vdda1}
 C {devices/iopin.sym} 3240 -440 0 0 {name=p2 lab=vdda2}
 C {devices/iopin.sym} 3240 -410 0 0 {name=p3 lab=vssa1}
@@ -126,3 +208,69 @@ C {devices/iopin.sym} 4660 540 0 0 {name=p59 lab=io_analog[6]_uq4}
 C {devices/lab_pin.sym} 3580 -20 0 0 {name=l7 sig_type=std_logic lab=io_analog[10]}
 C {devices/lab_pin.sym} 3670 -340 0 0 {name=l13 sig_type=std_logic lab=io_analog[10]}
 C {devices/lab_pin.sym} 3670 -300 0 0 {name=l14 sig_type=std_logic lab=io_analog[9]}
+C {devices/lab_pin.sym} 4420 -440 0 0 {name=l15 sig_type=std_logic lab=vccd1}
+C {devices/lab_pin.sym} 4840 -440 0 1 {name=l16 sig_type=std_logic lab=io_out[5]}
+C {devices/lab_pin.sym} 4420 -420 0 0 {name=l17 sig_type=std_logic lab=vssd1}
+C {devices/lab_pin.sym} 4420 -400 0 0 {name=l18 sig_type=std_logic lab=io_in[11]}
+C {devices/lab_pin.sym} 4420 -380 0 0 {name=l19 sig_type=std_logic lab=io_in[13]}
+C {devices/lab_pin.sym} 4420 -360 0 0 {name=l20 sig_type=std_logic lab=io_in[12]}
+C {devices/lab_pin.sym} 4420 -340 0 0 {name=l21 sig_type=std_logic lab=io_in[8]}
+C {devices/lab_pin.sym} 4420 -320 0 0 {name=l22 sig_type=std_logic lab=io_in[7]}
+C {devices/lab_pin.sym} 4840 -420 0 1 {name=l23 sig_type=std_logic lab=io_out[6]}
+C {devices/lab_pin.sym} 4840 -360 0 1 {name=l24 sig_type=std_logic lab=gpio_analog[3]}
+C {devices/lab_pin.sym} 4840 -340 0 1 {name=l25 sig_type=std_logic lab=gpio_analog[2]}
+C {devices/lab_pin.sym} 5200 -480 0 1 {name=l26 sig_type=std_logic lab=io_oeb[6]}
+C {devices/lab_pin.sym} 5200 -580 0 1 {name=l27 sig_type=std_logic lab=io_oeb[5]}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 -580 3 0 {name=R1
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {devices/lab_pin.sym} 5200 -320 0 1 {name=l28 sig_type=std_logic lab=io_oeb[7]}
+C {devices/lab_pin.sym} 5200 -220 0 1 {name=l29 sig_type=std_logic lab=io_oeb[8]}
+C {devices/lab_pin.sym} 5200 -120 0 1 {name=l30 sig_type=std_logic lab=io_oeb[9]}
+C {devices/lab_pin.sym} 5200 -20 0 1 {name=l31 sig_type=std_logic lab=io_oeb[10]}
+C {devices/lab_pin.sym} 5200 80 0 1 {name=l32 sig_type=std_logic lab=io_oeb[11]}
+C {devices/lab_pin.sym} 5200 180 0 1 {name=l33 sig_type=std_logic lab=io_oeb[12]}
+C {devices/lab_pin.sym} 5200 280 0 1 {name=l34 sig_type=std_logic lab=io_oeb[13]}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 -480 3 0 {name=R2
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 -320 3 0 {name=R3
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 -220 3 0 {name=R4
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 -120 3 0 {name=R5
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 -20 3 0 {name=R6
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 80 3 0 {name=R7
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 180 3 0 {name=R8
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {sky130_fd_pr/res_generic_m1.sym} 5130 280 3 0 {name=R9
+W=0.3
+L=0.6
+model=res_generic_m3
+mult=1}
+C {sky130_adc_202311/xschem/adc_wrapper.sym} 4630 -380 0 0 {name=x3}
